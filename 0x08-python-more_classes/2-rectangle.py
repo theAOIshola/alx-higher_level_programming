@@ -44,6 +44,3 @@ class Rectangle:
         else:
             perimeter = 2 * (self.__width + self.__height)
         return perimeter
-
-my_rectangle = Rectangle(2, 0)
-print("Area: {} - Perimeter: {}".format(my_rectangle.area(), my_rectangle.perimeter()))

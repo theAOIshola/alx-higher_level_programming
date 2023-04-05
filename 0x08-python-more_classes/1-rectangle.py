@@ -31,7 +31,3 @@ class Rectangle:
         if val < 0:
             raise ValueError("height must be >= 0")
         self.__height = val
-
-
-my_rectangle = Rectangle(2, 4)
-print(my_rectangle.__dict__)
