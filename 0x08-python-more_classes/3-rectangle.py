@@ -58,9 +58,3 @@ class Rectangle:
             if i != self.__height - 1:
                 rectangle.append("\n")
         return ("".join(rectangle))
-
-    def __repr__(self):
-        """Return a string representation of the Rectangle"""
-        rectangle = str(self.__width)
-        rectangle += str(self.__height)
-        return (rectangle)
