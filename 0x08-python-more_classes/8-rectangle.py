@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Definining a Rectangle class"""
 
+
 class Rectangle:
     """Creates a Rectangle model"""
 
